@@ -22,7 +22,7 @@ function App() {
 
     let pass = "";   
     for (let i = 1; i <=length; i++) {
-      const randomIndex = Math.floor(Math.random() * str.length+1);
+      const randomIndex = Math.floor(Math.random() * str.length);
       pass += str[randomIndex];
     }
     setpassword(pass);
